@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFINITY Global R&D News</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://dfinity.org/logo.svg" alt="DFINITY Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="latest-news">
+            <h1>Latest News</h1>
+            <div id="news-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 DFINITY Global R&D. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" aria-label="Twitter"><i data-feather="twitter"></i></a>
+            <a href="#" aria-label="GitHub"><i data-feather="github"></i></a>
+            <a href="#" aria-label="Linkedin"><i data-feather="linkedin"></i></a>
+        </div>
+    </footer>
+
+    <div id="loading-spinner" class="hidden">
+        <i data-feather="loader"></i>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
